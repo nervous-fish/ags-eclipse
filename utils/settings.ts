@@ -3,7 +3,7 @@ import { readJSONFile, writeJSONFile } from "./json";
 import { globalSettings } from "../variables";
 import { Settings } from "../interfaces/settings.interface";
 
-export const settingsPath = "./assets/settings/settings.json";
+export const settingsPath = `${SRC}/assets/settings/settings.json`;
 
 export const defaultSettings: Settings = {
   hyprsunset: {
